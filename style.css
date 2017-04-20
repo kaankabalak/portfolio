@@ -1,0 +1,207 @@
+/*CSS reset settings here*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+h1 {
+    font-size: 22pt;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 10px 0 10px 25px;
+    vertical-align: top;
+    font-family: "Comic Sans MS";
+}
+h2 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin: 24px 10px 21px 400px;
+    vertical-align: top;
+}
+h3 {
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 10px 0 10px 10px;
+    vertical-align: top;
+}
+h4{
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 8px 0 10px 10px;
+    vertical-align: top;
+}
+#wrapper{
+    width: 980px;
+    background-color: rgb(244,244,244);
+    margin: 0px auto;
+}
+#header{
+    height: 65px;
+    width: 980px;
+    background-color: rgb(244,244,244);
+}
+#top{
+    padding-top: 20px;
+    height: 275px;
+    width: 980px;
+    background: linear-gradient(to right, rgb(56, 38, 44), rgb(111, 89, 100), rgb(56, 38, 44));
+    display: inline-block;
+    vertical-align: top;
+}
+#photo{
+    background-color: cyan;
+    width: 400px;
+    height: 265px;
+    margin-left: 25px;
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+    border: 5px solid #C0C0C0;
+}
+.titlebar{
+    width: auto;
+    height: 42px;
+    background: linear-gradient(rgb(178, 178, 182),rgb(135, 133, 147),rgb(178, 178, 182));
+}
+.titlebar_small{
+    width: auto;
+    height: 38px;
+    background: linear-gradient(rgb(178, 178, 182),rgb(135, 133, 147),rgb(178, 178, 182));
+}
+#about{
+    background-color: rgb(236,228,235);
+    width: 485px;
+    height: 275px;
+    margin-left: 10px;
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+#about p{
+    margin: 10px;
+    font-size: 12pt;
+    line-height: 1.2;
+}
+a{
+    margin: 10px;
+    font-size: 12pt;
+    line-height: 1.2;
+    color: black;
+}
+.proj_top{
+    width: 290px;
+    height: 390px;
+}
+#projects{
+    background: linear-gradient(to right, rgb(56, 38, 44), rgb(111, 89, 100), rgb(56, 38, 44));
+    padding: 25px 0 25px 25px;
+}
+#projects p{
+    margin: 10px;
+    font-size: 11pt;
+    text-align: justify;
+    line-height: 1.2;
+}
+.subcontents{
+    height: 610px;
+    width: 290px;
+    background-color: rgb(236,228,235);
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+.logos1{
+    display: inline-block;
+    height: 45px;
+    width: 260px;
+    background-color: inherit;
+    margin: 10px 15px 5px;
+}
+.logos1 img {
+    margin-right: 6.4px;
+}
+.logos2{
+    display: inline-block;
+    height: 45px;
+    width: 260px;
+    background-color: inherit;
+    margin: 5px 15px 10px;
+}
+.logos2 img {
+margin-right: 6.4px;
+}
+#button1{
+    height: 22px;
+    border-radius: 5px;
+    background-color: rgb(64,125,97);
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0 113px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px #888888;
+    display:inline-block;
+}
+#button2{
+    height: 22px;
+    border-radius: 5px;
+    background-color: rgb(64,125,97);
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0 90px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px #888888;
+    display:inline-block;
+}
+#button3{
+    height: 22px;
+    border-radius: 5px;
+    background-color: rgb(64,125,97);
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0 108px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px #888888;
+    display:inline-block;
+}
+.label{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+#bottom{
+    height: 65px;
+    width: 980px;
+    background-color: rgb(244,244,244);
+    display: block;
+    list-style-type: none;
+}
+#bottom p{
+    vertical-align: top;
+    margin: 10px 369px;
+    width: 242px;
+}
+#bottom ul{
+    margin: 10px 300px 5px;
+    width: 380px;
+}
+#bottom li{
+    display: inline;
+    text-decoration: underline;
+}
+li img {
+    margin-right: 5px;
+}
